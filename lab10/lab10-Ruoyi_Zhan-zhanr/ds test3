@@ -1,0 +1,48 @@
+void insertA(CameraMap data_brackets, int ID, int time, std::string image){
+	data_brackets[ID].insert(std::make_pair(time, image));
+}
+
+
+void insertB(CameraMap &data_insert, int ID, int time, const std::string &image){
+	CameraMap::iterator it1;
+	it1=data_insert.find(ID);
+	if(it1!=data_insert.end()){
+		it1->second.insert(std::make_pair(time, image));
+	}
+	else{
+		TimeMap timemap;
+		timemap.insert(std::make_pair(time,image));
+		data_insert.insert(std::make_pair(ID, timemap));
+	}
+}	
+
+std::pair<bool, std::string> FindData(const CameraMap& data_brackets, int ID, int time){
+	CameraMap::const_iterator p=data_brackets.find(ID);
+	if(p==data_brackets.end()){
+		std::pair<bool, std::string> data_pair;
+		data_pair=std::make_pair(false, std::string("None"));
+		return data_pair;
+	}
+
+	else{
+		TimeMap::const_iterator itr=p->second.find(time);
+		if(itr==p->second.end()){
+			std::pair<bool, std::string> data_pair;
+			data_pair=std::make_pair(false, std::string("None"));
+			return data_pair;
+		}
+		else{
+			std::pair<bool, std::string> data_pair;
+			data_pair=std::make_pair(true, std::string(itr->second));
+			return data_pair;
+		}
+	}
+}
+
+4.4
+
+bool operator< (const CTData d1, const CTData d2){
+	return d1.getCamera()<d2.getCamera||((d1.getCamera()==d2.getCamera)&&(d1.getTime<d2.getTime));
+}
+
+

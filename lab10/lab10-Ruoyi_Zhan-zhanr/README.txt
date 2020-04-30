@@ -1,0 +1,1 @@
+Through Lab10, I learned how to make a database using SQL and access the DB using PHP. I got some practice on how to insert and delete the key and its values from the table using SQL and PHP and know how to associate two tables using primary keys.

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+	<title>My RSS Technology</title>
+	<subtitle>5 news from different websites</subtitle>
+	<link href="https://afsws.rpi.edu/AFS/home/43/zhanr/public_html/iit/" rel="self" />
+	<link href="https://afsws.rpi.edu/AFS/home/43/zhanr/public_html/iit/Lab4" />
+	<id>https://afsws.rpi.edu/AFS/home/43/zhanr/public_html/iit/Lab4</id>
+	<updated>2020-02-20T18:30:02Z</updated>
+	<author>
+		<name>Ruoyi Zhan</name>
+		<email>zhanr@rpi.edu</email>
+	</author>
+ 
+	<entry>
+		<title>These are the countries where novel coronavirus cases have been confirmed worldwide</title>
+		<link href="https://www.cnn.com/2020/01/29/asia/coronavirus-cases-worldwide-intl-hnk/index.html/" />
+		<id>https://www.cnn.com/2020/01/29/asia/coronavirus-cases-worldwide-intl-hnk/index.html/</id>
+		<updated>2020-02-20T05:14:00Z</updated>
+		<summary>The novel coronavirus has spread throughout the world since the first cases were detected in central China in December. At least 2,100 people have died and more than 75,500 people have been infected, and the World Health Organization (WHO) has declared the outbreak a public health emergency of international concern.</summary>
+	</entry>
+ 
+ 	<entry>
+		<title>Far-Right Shooting Shatters an Already Fragile Sense of Security in Germany</title>
+		<link href="https://www.nytimes.com/2020/02/20/world/europe/germany-hanau-shisha-bar-shooting.html" />
+		<id>https://www.nytimes.com/2020/02/20/world/europe/germany-hanau-shisha-bar-shooting.html</id>
+		<updated>2020-02-21T12:13:00Z</updated>
+		<summary>HANAU, Germany — Hanau, a small city in western Germany, considered itself a melting pot, an island of tolerance. That was before a racist extremist opened fire at a hookah bar Wednesday night, killing nine mostly young people in Germany’s worst attack in recent memory.</summary>
+	</entry>
+
+	<entry>
+		<title>Women who died inside Mercedes that rolled off Florida ferry were found embracing: report</title>
+		<link href="https://www.foxnews.com/us/women-mercedes-submerged-florida-ferry-embrace" />
+		<id>https://www.foxnews.com/us/women-mercedes-submerged-florida-ferry-embrace</id>
+		<updated>2020-02-20T12:00:00Z</updated>
+		<summary>Two women who died inside a submerged Mercedes-Benz that rolled off a Florida ferry Tuesday were found embracing in the back seat of the car, according to a report.</summary>
+	</entry>
+
+	<entry>
+		<title>Coronavirus: 'Narrowing window' to contain outbreak, WHO says</title>
+		<link href="https://www.bbc.com/news/world-asia-51591091" />
+		<id>https://www.bbc.com/news/world-asia-51591091</id>
+		<updated>2020-02-22T00:47:00Z</updated>
+		<summary>The head of the World Health Organization (WHO) has expressed concern at the number of coronavirus cases with no clear link to China or other confirmed cases.</summary>
+	</entry>
+
+	<entry>
+		<title>Portland man accused of killing 2 during hate-filled rant guilty of 1st-degree murder</title>
+		<link href="https://www.nbcnews.com/news/us-news/portland-man-accused-killing-2-during-hate-killed-rant-guilty-n1140756" />
+		<id>https://www.nbcnews.com/news/us-news/portland-man-accused-killing-2-during-hate-killed-rant-guilty-n1140756</id>
+		<updated>2020-02-21T20:01:00Z</updated>
+		<summary>The man accused of fatally stabbing two people and injuring a third during a hate-filled rant aboard a Portland, Oregon, train in 2017 was found guilty Friday on all 12 charges, including two counts of first-degree murder and three counts of second-degree intimidation.</summary>
+	</entry>
+
+</feed>
+
+
+
