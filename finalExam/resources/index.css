@@ -1,0 +1,71 @@
+body {
+	font-family: Arial, Helvetica, sans-serif; 
+    color: black;
+    width:1325px;
+    height:725px;
+    border:50px solid black;
+    background-image:url("background_house.jpg");
+    background-repeat: no-repeat;
+    background-size:600px 725px;
+    background-position: 50px 58px;
+    
+}
+
+#main {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+	width:600px;
+	height:400px;
+	font-weight:bold;
+	font-size: 50px;
+	font-family: "Snell Roundhand";
+    text-shadow:2px 2px 0px white;
+}
+
+
+#bodyBlock {
+	width:350px;
+    height:650px;
+    padding-right: 20px;
+    font-size: 20px;
+    position: absolute;
+    right: 5%;
+    top:20%;
+
+}
+
+a:link {
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:link{
+  	text-decoration: none;
+}
+
+a:visited {
+  	text-decoration: none;
+}
+
+#main span {
+	font-size: 60px;
+}
+
+#bodyBlock ul li{  
+	line-height:30px;        
+	font-size: 20px;
+}
+
+footer {
+	height: 52px;
+	position: absolute;
+    right: 12%;
+    bottom: 10%;
+}
+

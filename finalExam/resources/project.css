@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, Helvetica, sans-serif; 
+    color: black;
+    width:1325px;
+    height:725px;
+    border:50px solid black;
+    background-image:url("project_background.jpg");
+    background-repeat: no-repeat;
+    background-size:600px 725px;
+    background-position: 50px 58px;
+    
+}
+
+#main {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+	width:600px;
+	height:400px;
+	font-weight:bold;
+	font-size: 50px;
+	font-family: "Snell Roundhand";
+    text-shadow:2px 2px 0px white;
+}
+
+
+#bodyBlock {
+	width:400px;
+    height:650px;
+    padding-right: 50px;
+    position: absolute;
+    right: 0%;
+    top: 8%;
+
+}
+
+a:link {
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:link{
+  	text-decoration: none;
+}
+
+a:visited {
+  	text-decoration: none;
+}
+
+#main span {
+	font-size: 60px;
+}
+
+#bodyBlock ul li{  
+	line-height:30px;        
+	font-size: 1.5em;
+	list-style-image: url("icon_cut2.jpg");
+	list-style-image-size:50px 50px;
+}
+
+footer {
+	height: 52px;
+	position: absolute;
+    right: 14%;
+    bottom: 8%;
+}
+
